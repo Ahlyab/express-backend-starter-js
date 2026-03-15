@@ -45,3 +45,18 @@ jobs:
           NODE_ENV: test
           MONGODB_URL: mongodb://localhost:27017/node-boilerplate-test
           JWT_SECRET: test-secret-key
+
+      - name: Run tests with coverage
+        run: npm run coverage
+        env:
+          NODE_ENV: test
+          MONGODB_URL: mongodb://localhost:27017/node-boilerplate-test
+          JWT_SECRET: test-secret-key
+
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v2.3.6
+        with:
+          path-to-lcov: ./coverage/lcov.info
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
