@@ -1,1 +1,8 @@
+# 1. Check for high/critical vulnerabilities
+npm audit --audit-level=high
+
+# 2. Lint entire codebase
+npm run lint
+
+# 3. Lint and format staged files (eslint --fix + prettier --write)
 npx --no-install lint-staged || npx lint-staged
