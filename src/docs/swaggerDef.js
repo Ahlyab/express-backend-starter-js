@@ -8,7 +8,7 @@ const swaggerDef = {
     version,
     license: {
       name: 'MIT',
-      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
+      url: 'https://github.com/Ahlyab/express-backend-starter-js/blob/master/LICENSE',
     },
   },
   servers: [

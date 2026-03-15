@@ -4,8 +4,8 @@
   "description": "Create a Node.js app for building production-ready RESTful APIs using Express, by running one command",
   "bin": "bin/createNodejsApp.js",
   "main": "src/index.js",
-  "repository": "https://github.com/hagopj13/node-express-boilerplate.git",
-  "author": "Hagop Jamkojian <hagopj13@gmail.com>",
+  "repository": "https://github.com/Ahlyab/express-backend-starter-js.git",
+  "author": "Ahlyab <ahalyabasad@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
