@@ -15,11 +15,6 @@ To create and initialize a new project in one command:
 npx create-nodejs-express-app <project-name>
 ```
 
-Or:
-
-```bash
-npm init nodejs-express-app <project-name>
-```
 
 This will create a new folder with the project name, copy the template, install dependencies (`npm install`), and set up `.env` from `.env.example`. Then:
 
